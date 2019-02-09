@@ -14,12 +14,12 @@ ul{
 #head{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     border: 2px solid black;
-    padding: 1em;
+    padding: 0.5em;
     text-align: center;
     
-    top: 0;
+    top: 2%;
     color:white; 
-    background-color: rgb(61, 61, 61);
+    background-color: rgb(15, 15, 15,0.5);
     box-shadow: 0.1em 0.1em 0.5em grey;
     transition: 1s;
     animation: shine 1s infinite;
