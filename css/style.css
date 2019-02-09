@@ -1,0 +1,66 @@
+.butts{
+    float: right;
+     
+}
+ul{
+    list-style: none;
+    margin-left: 10%;
+    margin-top: 2em;
+}
+.out{
+    margin-top:2em;
+    max-width: 80%;
+}
+#head{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: 2px solid black;
+    padding: 1em;
+    text-align: center;
+    
+    top: 0;
+    color:white; 
+    background-color: rgb(61, 61, 61);
+    box-shadow: 0.1em 0.1em 0.5em grey;
+    transition: 1s;
+    animation: shine 1s infinite;
+}
+#head:active{
+    transform: translate(0.1em,0.1em);
+    box-shadow: none;
+    transition: 1s;
+}
+body,html{
+    height: 100%;
+}
+body{
+    background-color: rgb(195, 198, 202);
+}
+.on{
+    background-color: gray;
+    
+    opacity: 0.5;
+}
+/*
+#back{
+   background-image: url("back.jpg");
+   
+   height:100%;
+
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: sticky;
+   top: 0%;
+   opacity: 0.1;
+}*/
+@keframes shine{
+    0%{
+    animation-play-state: running;
+    }
+    50%{
+
+    }
+    100%{
+        
+    }
+}
